@@ -1,0 +1,26 @@
+\begin{thebibliography}{1}
+
+\bibitem{linkpredsocial}
+David Liben-Nowell and Jon Kleinberg.
+\newblock The link-prediction problem for social networks.
+\newblock 1993.
+
+\bibitem{hittingtime}
+Daniel Boley, Gyan Ranjan, and Zhi li~Zhang.
+\newblock Commute times for a directed graph using an asymmetric laplacian.
+\newblock 2010.
+
+\bibitem{voter_model}
+V.~Sood, Tibor Antal, and S.~Redner.
+\newblock Voter models on heterogeneous networks.
+\newblock 1993.
+
+\bibitem{opinion_old_work}
+Abir De, Sourangshu Bhattacharya, Parantapa Bhattacharya, Niloy Ganguly, and
+  Soumen Chakrabarti.
+\newblock Learning a linear influence model from transient opinion dynamics.
+\newblock In {\em Proceedings of the 23rd ACM International Conference on
+  Conference on Information and Knowledge Management}, CIKM '14, pages
+  401--410, New York, NY, USA, 2014. ACM.
+
+\end{thebibliography}

@@ -159,11 +159,60 @@ We ran our system on the Movie lens data set ( 3952 nodes, 276 queries). Initial
 
 \section*{Proposed Hybrid approach for further experimentation}
 The only QP based approach gave very poor result, but however the LP approach gave comparatively better results. So we can use the LP weights in triangulated weight calculations and QP weights in edge dissimilarity calculations which needs further experimentations.
-
+   
+%    handler.computeHittingTime = @computeHittingTime;
+%    handler.computeCommuteTime = @computeCommuteTime ;
+%    handler.computeKatzScore = @computeKatzScore ;
+%    handler.computeJaccardScore = @computeJaccardScore ;
+%    handler.computeAdamicAdarScore = @computeAdamicAdarScore ;
+%    handler.computeCommonNeighborScore = @computeCommonNeighborScore ;
+%    handler.computeRootedPageRank = @computeRootedPageRank ;
+%    handler.computePreferentialAttachment = @computePreferentialAttachment ;
+%    handler.computeSimRank = @computeSimRank ;
+%    handler.computeGraphDistance = @computeGraphDistance;
+%    handler.computeCommuteTimeFresh = @computeCommuteTimeFresh;
 \section*{Adding more features}
+After the previous work instead of going to the hybrid approaches as suggested earlier we tried to introduce new featur - Hitting time, Commute Time, Katz Score, Preferential Attachment, Jaccard Score, Adamic Adar, Common Neighbor score and GraphDistance \cite{linkpredsocial}. Here we give a brief overview of the features. After that we have done a quadratic coupling study of features.
+% hitting time and commute time
+\\
+A random walk on $G$ starts at a node $x$ and iteratively moves to a neighbor of $x$ chosen uniformly at random from the set $\Gamma(x)$ (set of direct neighbors of the node $x$). The hitting time $H_{x,y}$ from $x$ to $y$ is the expected number of steps required for a random walk starting at $x$ to reach $y$.Because the hitting time is not in general symmetric, it is also natural to consider the commute time $C_{x,y} := H_{x,y} + H_{y,x}$. From \cite{hittingtime} we find that we can easily compute hitting time matrix $H$ according to the following formula $H = 1 \dot{}  [diag( \widetilde{Z})]^{T} - \widetilde{Z}$ where $\widetilde{Z}$ is the scaled fundamental matrix as defined in \cite{hittingtime}.
+\\
+%Katz Score
+In this work we have also incorporated two new features - Preferential Attachment and Katz Score. Katz Score is among the methods to refine the notion of shortest paths by considering the set of all paths between two nodes. Katz defines a measure that directly sums over this collection of paths, exponentially damped by length to count short paths more heavily. This notion leads to the measure $Score(x,y) := \sum\limits_{l=1}^{\infty} \beta^l |paths_{x,y}^{<l>}|$ where $paths_{x,y}$ is the set of all length- paths from $x$ to $y$, and $\beta > 0$ is a parameter of the predictor (A very small $\beta$ yields predictions much like common neighbors, because paths of length three or more contribute very little to the summation). We can easily find a closed expression of the $Score$ matrix. By definion the $score = \sum\limits_{l=1}^{\infty} \beta^l M^l$ (where M is the adjacency matrix of the graph). Now $Score + I = \sum\limits_{l=0}^{\infty} \beta^l M^l = (I-\beta M)^{-1} \iff Score = (I-\beta M)^{-1} - I$ From the definition of Katz score, as we are considering all possible paths it also captures the notion of the global structure of the Graph.
+\\
+%Preferentail Attachment Score
+Our framework also tries to capture the the local effects by introducing the Preferential Attachment feature. For a node $x$, let $\Gamma (x)$ denote the set of neighbors of $x$. Now the definition of Preferential Attachment comes from the growth model. We know if we introduce a new node then $x$ will be one of its neighbors with probability $|\Gamma(x)|$. Now in our graphs are not temporal and as both $x$ and $y$ already exists so to capture their local similarity be good approach would be to define $PA(x,y) := |\Gamma(x)|.|\Gamma(y)|$.
+\\
+% common neighbor and graph distance
+The common neighbor score is defined as $score(x, y) := |\Gamma(x) \cap \Gamma(y)|$, the number of neighbors that $x$ and $y$ have in common. And graph distance is basically the all pair shortest part distance which we computed using Floyd Warshal Algorithm. For all these methods we have written MATLAB scripts.
 
+\section*{Feature coupling study}
+With our earlier work we have introduced a lot of features. But some features may be good for classification and some may be not. Also if we train using forming vectors using only one dimension features then there is high chance that we might miss the co-relation effect between features which can be a major signal for the outer level classifier. Also as taking all these experiments would have taken a lot of manual effort so we have completely automated the process of linear and quadratic feature coupling study. Our system takes input of a bit vector for linear features and a bit Matrix for co-relation study of features.
 
-\section*{feature coupling study}
+\section*{Experimental results}
+
+In Figure~\ref{fig:arbitration_study} we show the linear feature selection study. Here on average we find that if we take the combination of LL (local learning), CC (co-clustering), KM (Katz Measure), PA (Preferential Attachment) and AA (Adamic Adar) then we get best MAP values in all data sets. In Figure~\ref{fig:quad_study} we show the effect of taking the quadratic terms. And we deduce that quadratic combination of the selected features found in linear study gives best performance. Finally in Figure~\ref{fig:precion_recall} study we study the our methodology against leading algorithm and find that our old framework combined with the LL,CC,KM,PA and AA scores gives superior results.
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{link_prediction/images/arbitration_study.png}
+\caption{Feature Ablation Study with 90\% and 80\% Sampling}
+\label{fig:arbitration_study}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{link_prediction/images/quad_study.png}
+\caption{Effect of Quadratic Terms}
+\label{fig:quad_study}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{link_prediction/images/precision_recall.png}
+\caption{Precision vs. recall curves for all data sets and algorithms}
+\label{fig:precion_recall}
+\end{figure}
+
 
 \section*{Tools Used}
-C++,Boost Graph Library,PEGASOS,GLPK,Matlab
+The initial system for LP and QP based score calculation was built using C++ and Boost Graph Library. The later new featurs and feature combination and arbitration study was done entirely in MATLAB. For LP we used the GLPK library and for QP we used PEGASOS.

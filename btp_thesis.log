@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  2 MAY 2015 16:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  2 MAY 2015 20:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -412,38 +412,69 @@ Overfull \hbox (2.39803pt too wide) in paragraph at lines 160--160
 []\OT1/cmr/bx/n/14.4 Proposed Hy-brid ap-proach for fur-ther ex-per-i-men-
  []
 
-) (./opinion_dynamics/opinion_dynamics.tex [8 <./link_prediction/images/total.p
-ng>] [9 <./link_prediction/images/average.png>] [10
+[8 <./link_prediction/images/total.png>] [9 <./link_prediction/images/average.p
+ng>]
+<link_prediction/images/arbitration_study.png, id=51, 321.2pt x 670.505pt>
+File: link_prediction/images/arbitration_study.png Graphic file (type png)
 
-]) [11] (./btp_thesis.aux)
+<use link_prediction/images/arbitration_study.png>
+Package pdftex.def Info: link_prediction/images/arbitration_study.png used on i
+nput line 197.
+(pdftex.def)             Requested size: 263.47392pt x 550.00183pt.
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
- ) 
+LaTeX Warning: Float too large for page by 23.94627pt on input line 200.
+
+<link_prediction/images/quad_study.png, id=52, 339.2675pt x 647.41875pt>
+File: link_prediction/images/quad_study.png Graphic file (type png)
+
+<use link_prediction/images/quad_study.png>
+Package pdftex.def Info: link_prediction/images/quad_study.png used on input li
+ne 204.
+(pdftex.def)             Requested size: 288.23378pt x 550.03192pt.
+
+
+LaTeX Warning: Float too large for page by 23.97636pt on input line 207.
+
+
+<link_prediction/images/precision_recall.png, id=53, 1138.2525pt x 543.02875pt>
+File: link_prediction/images/precision_recall.png Graphic file (type png)
+<use link_prediction/images/precision_recall.png>
+Package pdftex.def Info: link_prediction/images/precision_recall.png used on in
+put line 211.
+(pdftex.def)             Requested size: 345.00415pt x 164.59192pt.
+)
+(./opinion_dynamics/opinion_dynamics.tex [10] [11 <./link_prediction/images/arb
+itration_study.png>] [12 <./link_prediction/images/quad_study.png>] [13 <./link
+_prediction/images/precision_recall.png>] [14
+
+]) (./btp_thesis.bbl) [15]
+(./btp_thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 2048 strings out of 494985
- 27849 string characters out of 6180356
- 85572 words of memory out of 5000000
- 5243 multiletter control sequences out of 15000+600000
+ 2081 strings out of 494985
+ 28802 string characters out of 6180356
+ 88660 words of memory out of 5000000
+ 5270 multiletter control sequences out of 15000+600000
  6149 words of font info for 22 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 37i,6n,23p,1205b,237s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on btp_thesis.pdf (12 pages, 323003 bytes).
+ 37i,6n,23p,1220b,237s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cme
+x10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmti12.pfb>
+Output written on btp_thesis.pdf (16 pages, 502185 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
+ 115 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
