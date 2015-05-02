@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  2 MAY 2015 20:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  3 MAY 2015 00:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -448,33 +448,61 @@ put line 211.
 itration_study.png>] [12 <./link_prediction/images/quad_study.png>] [13 <./link
 _prediction/images/precision_recall.png>] [14
 
-]) (./btp_thesis.bbl) [15]
-(./btp_thesis.aux) ) 
+] [15]
+<opinion_dynamics/images/voter_model.png, id=73, 408.52625pt x 119.44624pt>
+File: opinion_dynamics/images/voter_model.png Graphic file (type png)
+
+<use opinion_dynamics/images/voter_model.png>
+Package pdftex.def Info: opinion_dynamics/images/voter_model.png used on input 
+line 28.
+(pdftex.def)             Requested size: 345.01732pt x 100.87727pt.
+ [16 <./opinion_dynamics/images/voter_model.png>]
+Overfull \hbox (9.40211pt too wide) in paragraph at lines 49--59
+\OT1/cmr/m/n/10 = [](1 \OMS/cmsy/m/n/10 ^^@ [] []\OML/cmm/m/it/10 ^^X\OT1/cmr/m
+/n/10 (\OML/cmm/m/it/10 x; y; t[]\OT1/cmr/m/n/10 ))[] []([] []\OML/cmm/m/it/10 
+^^X\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y; t[]\OT1/cmr/m/n/10 ))[]$ 
+ []
+
+
+Overfull \hbox (20.4305pt too wide) in paragraph at lines 49--59
+\OML/cmm/m/it/10 L \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 ln\OT1/cmr/m/n/10 (\OML/c
+mm/m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 S[]\OMS/cmsy/m/n/10 j\OML/cmm/m/i
+t/10 G\OT1/cmr/m/n/10 )) \OMS/cmsy/m/n/10 / [] \OML/cmm/m/it/10 I\OT1/cmr/m/n/1
+0 (\OML/cmm/m/it/10 n[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = \
+OML/cmm/m/it/10 n[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ))\OML/cm
+m/m/it/10 ln\OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10 ^^@ [] []\OML/cmm/m/it/10 ^^X\O
+T1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y; t[]\OT1/cmr/m/n/10 )) + [] \OML/cmm/m/it/
+10 I\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT
+1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 =
+ []
+
+[17]) (./btp_thesis.bbl) [18] (./btp_thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 2081 strings out of 494985
- 28802 string characters out of 6180356
- 88660 words of memory out of 5000000
- 5270 multiletter control sequences out of 15000+600000
+ 2089 strings out of 494985
+ 29043 string characters out of 6180356
+ 88669 words of memory out of 5000000
+ 5276 multiletter control sequences out of 15000+600000
  6149 words of font info for 22 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 37i,6n,23p,1220b,237s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cme
-x10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmti12.pfb>
-Output written on btp_thesis.pdf (16 pages, 502185 bytes).
+ 37i,8n,23p,1266b,237s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmti12.pfb>
+Output written on btp_thesis.pdf (19 pages, 528876 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+ 130 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
