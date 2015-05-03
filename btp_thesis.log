@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  3 MAY 2015 21:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  3 MAY 2015 22:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -388,19 +388,13 @@ File: link_prediction/images/network.png Graphic file (type png)
 Package pdftex.def Info: link_prediction/images/network.png used on input line 
 102.
 (pdftex.def)             Requested size: 344.99385pt x 245.21225pt.
- [5]
-Overfull \hbox (64.49051pt too wide) detected at line 123
-\OML/cmm/m/it/10 W \OT1/cmr/m/n/10 = [\OML/cmm/m/it/10 W[]W[]:::W[]W[]W[]:::W[]
-W[]W[]:::W[]:::W[]W[]:::W[]\OT1/cmr/m/n/10 ]
- []
-
-[6 <./link_prediction/images/network.png>]
-<link_prediction/images/total.png, id=40, 1312.905pt x 669.50125pt>
+ [5] [6 <./link_prediction/images/network.png>] <link_prediction/images/total.p
+ng, id=40, 1312.905pt x 669.50125pt>
 File: link_prediction/images/total.png Graphic file (type png)
 
 <use link_prediction/images/total.png>
 Package pdftex.def Info: link_prediction/images/total.png used on input line 14
-9.
+8.
 (pdftex.def)             Requested size: 344.99332pt x 175.92548pt.
 
 <link_prediction/images/average.png, id=41, 1320.935pt x 688.5725pt>
@@ -408,10 +402,10 @@ File: link_prediction/images/average.png Graphic file (type png)
 
 <use link_prediction/images/average.png>
 Package pdftex.def Info: link_prediction/images/average.png used on input line 
-155.
+154.
 (pdftex.def)             Requested size: 344.987pt x 179.83363pt.
  [7]
-Overfull \hbox (2.39803pt too wide) in paragraph at lines 160--160
+Overfull \hbox (2.39803pt too wide) in paragraph at lines 159--159
 []\OT1/cmr/bx/n/14.4 Proposed Hy-brid ap-proach for fur-ther ex-per-i-men-
  []
 
@@ -422,29 +416,29 @@ File: link_prediction/images/arbitration_study.png Graphic file (type png)
 
 <use link_prediction/images/arbitration_study.png>
 Package pdftex.def Info: link_prediction/images/arbitration_study.png used on i
-nput line 197.
+nput line 196.
 (pdftex.def)             Requested size: 263.47392pt x 550.00183pt.
 
 
-LaTeX Warning: Float too large for page by 23.94627pt on input line 200.
+LaTeX Warning: Float too large for page by 23.94627pt on input line 199.
 
 <link_prediction/images/quad_study.png, id=52, 339.2675pt x 647.41875pt>
 File: link_prediction/images/quad_study.png Graphic file (type png)
 
 <use link_prediction/images/quad_study.png>
 Package pdftex.def Info: link_prediction/images/quad_study.png used on input li
-ne 204.
+ne 203.
 (pdftex.def)             Requested size: 288.23378pt x 550.03192pt.
 
 
-LaTeX Warning: Float too large for page by 23.97636pt on input line 207.
+LaTeX Warning: Float too large for page by 23.97636pt on input line 206.
 
 
 <link_prediction/images/precision_recall.png, id=53, 1138.2525pt x 543.02875pt>
 File: link_prediction/images/precision_recall.png Graphic file (type png)
 <use link_prediction/images/precision_recall.png>
 Package pdftex.def Info: link_prediction/images/precision_recall.png used on in
-put line 211.
+put line 210.
 (pdftex.def)             Requested size: 345.00415pt x 164.59192pt.
 )
 (./opinion_dynamics/opinion_dynamics.tex [10] [11 <./link_prediction/images/arb
@@ -503,8 +497,9 @@ File: opinion_dynamics/images/non_strict.png Graphic file (type png)
 Package pdftex.def Info: opinion_dynamics/images/non_strict.png used on input l
 ine 83.
 (pdftex.def)             Requested size: 345.0015pt x 212.92024pt.
-
-Overfull \hbox (20.50085pt too wide) in paragraph at lines 80--93
+ [18] [19 <./opinion_dynamics/images/Twitter_plot.png> <./opinion_dynamics/imag
+es/Reddit_plot.png>]
+Overfull \hbox (20.50085pt too wide) in paragraph at lines 89--95
 \OT1/cmr/m/n/10 maximize $\OML/cmm/m/it/10 L \OT1/cmr/m/n/10 = \OML/cmm/m/it/10
  log\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 S\OMS/
 cmsy/m/n/10 j\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 )) = \OML/cmm/m/it/10 log\OT1/cm
@@ -514,7 +509,7 @@ T1/cmr/m/n/10 (\OML/cmm/m/it/10 i; j; t[]\OT1/cmr/m/n/10 )]])$
  []
 
 
-Overfull \hbox (1.32138pt too wide) in paragraph at lines 80--93
+Overfull \hbox (1.32138pt too wide) in paragraph at lines 89--95
 [] \OML/cmm/m/it/10 a[]^^X\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 i; j; t[]\OT1/cmr/m
 /n/10 ) = 1\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 k \OMS/cmsy/m/n/10 2 []8\OML/cmm/
 m/it/10 i \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 V$ \OT1/cmr/m/n/10 Now if we take
@@ -523,7 +518,7 @@ m/it/10 i \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 V$ \OT1/cmr/m/n/10 Now if we take
  []
 
 
-Overfull \hbox (60.41997pt too wide) in paragraph at lines 80--93
+Overfull \hbox (60.41997pt too wide) in paragraph at lines 89--95
 \OML/cmm/m/it/10 Z[]\OMS/cmsy/m/n/10 r[]\OML/cmm/m/it/10 Z \OT1/cmr/m/n/10 = []
 [\OML/cmm/m/it/10 z\OT1/cmr/m/n/10 ([] \OML/cmm/m/it/10 Z[]a[]m[]e[]\OT1/cmr/m/
 n/10 ) \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 ([] \OML/cmm/m/it/10 z[]a[]m[]e[]\O
@@ -532,16 +527,15 @@ m/it/10 Z[]a[]m[]e[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (32.129pt too wide) in paragraph at lines 80--93
+Overfull \hbox (29.35121pt too wide) in paragraph at lines 89--95
 \OT1/cmr/m/n/10 ([] \OML/cmm/m/it/10 z[]a[]m[]e[]\OT1/cmr/m/n/10 )] \OMS/cmsy/m
 /n/10 ^^U \OT1/cmr/m/n/10 0$ (us-ing Cauchy{Schwarz In-equal-ity). Hence $\OML/
-cmm/m/it/10 f \OT1/cmr/m/n/10 := \OML/cmm/m/it/10 log\OT1/cmr/m/n/10 ([] \OML/c
-mm/m/it/10 a[]e[]\OT1/cmr/m/n/10 )$
+cmm/m/it/10 f \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 log\OT1/cmr/m/n/10 ([] \OML/cm
+m/m/it/10 a[]e[]\OT1/cmr/m/n/10 )$
  []
 
-[18] [19 <./opinion_dynamics/images/Twitter_plot.png> <./opinion_dynamics/image
-s/Reddit_plot.png>] [20 <./opinion_dynamics/images/non_strict.png>])
-(./btp_thesis.bbl [21]) [22] (./btp_thesis.aux)
+[20 <./opinion_dynamics/images/non_strict.png>]) (./btp_thesis.bbl [21])
+[22] (./btp_thesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -549,11 +543,11 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  2109 strings out of 494985
  29684 string characters out of 6180356
- 97742 words of memory out of 5000000
+ 92742 words of memory out of 5000000
  5293 multiletter control sequences out of 15000+600000
  6149 words of font info for 22 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 37i,9n,23p,2052b,237s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,9n,23p,2051b,237s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
@@ -567,7 +561,7 @@ m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on btp_thesis.pdf (23 pages, 734616 bytes).
+Output written on btp_thesis.pdf (23 pages, 734809 bytes).
 PDF statistics:
  148 PDF objects out of 1000 (max. 8388607)
  95 compressed objects within 1 object stream

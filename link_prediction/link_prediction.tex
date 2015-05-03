@@ -119,8 +119,7 @@ W_{uv}^T \frac{T_{v1} + T_{v2} + T_{v3}}{3} - W_{uv}^T \frac {T_{u5} + T_{u6}+T_
 \end{equation}
 
 So from these equations (total $|Q| * |V| * 4$ constraints) for each query-node pair  we want to find the $W_{uv}$ for all query $u$ and node $v$ together. So we try the bring all the equations in the same variable space and we want to find a W vector of dimension $|F|*|Q|*|V|$, [Where $|F|$ is the feature dimension]\\
-i.e. our $$W = [W_{q1,1} W_{q1,2} ... W_{q1,|V|} W_{q2,1} W_{q2, 2} ... W_{q2,|V|} W_{q3,1} W_{q3,2} ... W_{q3,|V|}
-... W_{q_{|Q|},1} W_{q_{|Q|}, 2} ... W_{q_{|Q|}, |V|}]$$
+i.e. our $$W = [W_{q1,1} W_{q1,2} ... W_{q1,|V|} W_{q2,1} W_{q2, 2} ... W_{q2,|V|}... W_{q_{|Q|},1} W_{q_{|Q|}, 2} ... W_{q_{|Q|}, |V|}]$$
 So we can define the mapping as
 \begin{equation}
 W_{uv} [k] \rightarrow (i*|V|+v)*|F| + k 
