@@ -10,6 +10,11 @@ Daniel Boley, Gyan Ranjan, and Zhi li~Zhang.
 \newblock Commute times for a directed graph using an asymmetric laplacian.
 \newblock 2010.
 
+\bibitem{cccp}
+Bharath~K. Sriperumbudur and Gert R.~G. Lanckriet.
+\newblock On the convergence of the concave-convex procedure.
+\newblock 2009.
+
 \bibitem{voter_model}
 V.~Sood, Tibor Antal, and S.~Redner.
 \newblock Voter models on heterogeneous networks.

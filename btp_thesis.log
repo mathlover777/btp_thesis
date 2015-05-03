@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  3 MAY 2015 19:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  3 MAY 2015 21:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -503,9 +503,8 @@ File: opinion_dynamics/images/non_strict.png Graphic file (type png)
 Package pdftex.def Info: opinion_dynamics/images/non_strict.png used on input l
 ine 83.
 (pdftex.def)             Requested size: 345.0015pt x 212.92024pt.
- [18] [19 <./opinion_dynamics/images/Twitter_plot.png> <./opinion_dynamics/imag
-es/Reddit_plot.png>]
-Overfull \hbox (20.50085pt too wide) in paragraph at lines 89--94
+
+Overfull \hbox (20.50085pt too wide) in paragraph at lines 80--93
 \OT1/cmr/m/n/10 maximize $\OML/cmm/m/it/10 L \OT1/cmr/m/n/10 = \OML/cmm/m/it/10
  log\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 S\OMS/
 cmsy/m/n/10 j\OML/cmm/m/it/10 A\OT1/cmr/m/n/10 )) = \OML/cmm/m/it/10 log\OT1/cm
@@ -515,7 +514,7 @@ T1/cmr/m/n/10 (\OML/cmm/m/it/10 i; j; t[]\OT1/cmr/m/n/10 )]])$
  []
 
 
-Overfull \hbox (1.32138pt too wide) in paragraph at lines 89--94
+Overfull \hbox (1.32138pt too wide) in paragraph at lines 80--93
 [] \OML/cmm/m/it/10 a[]^^X\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 i; j; t[]\OT1/cmr/m
 /n/10 ) = 1\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 k \OMS/cmsy/m/n/10 2 []8\OML/cmm/
 m/it/10 i \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 V$ \OT1/cmr/m/n/10 Now if we take
@@ -523,20 +522,38 @@ m/it/10 i \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 V$ \OT1/cmr/m/n/10 Now if we take
 ; x[]\OT1/cmr/m/n/10 ) =
  []
 
-[20 <./opinion_dynamics/images/non_strict.png>]) (./btp_thesis.bbl) [21]
-(./btp_thesis.aux)
+
+Overfull \hbox (60.41997pt too wide) in paragraph at lines 80--93
+\OML/cmm/m/it/10 Z[]\OMS/cmsy/m/n/10 r[]\OML/cmm/m/it/10 Z \OT1/cmr/m/n/10 = []
+[\OML/cmm/m/it/10 z\OT1/cmr/m/n/10 ([] \OML/cmm/m/it/10 Z[]a[]m[]e[]\OT1/cmr/m/
+n/10 ) \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 ([] \OML/cmm/m/it/10 z[]a[]m[]e[]\O
+T1/cmr/m/n/10 )] = [][([] \OML/cmm/m/it/10 a[]e[]\OT1/cmr/m/n/10 )([] \OML/cmm/
+m/it/10 Z[]a[]m[]e[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (32.129pt too wide) in paragraph at lines 80--93
+\OT1/cmr/m/n/10 ([] \OML/cmm/m/it/10 z[]a[]m[]e[]\OT1/cmr/m/n/10 )] \OMS/cmsy/m
+/n/10 ^^U \OT1/cmr/m/n/10 0$ (us-ing Cauchy{Schwarz In-equal-ity). Hence $\OML/
+cmm/m/it/10 f \OT1/cmr/m/n/10 := \OML/cmm/m/it/10 log\OT1/cmr/m/n/10 ([] \OML/c
+mm/m/it/10 a[]e[]\OT1/cmr/m/n/10 )$
+ []
+
+[18] [19 <./opinion_dynamics/images/Twitter_plot.png> <./opinion_dynamics/image
+s/Reddit_plot.png>] [20 <./opinion_dynamics/images/non_strict.png>])
+(./btp_thesis.bbl [21]) [22] (./btp_thesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2106 strings out of 494985
- 29648 string characters out of 6180356
- 88727 words of memory out of 5000000
- 5290 multiletter control sequences out of 15000+600000
+ 2109 strings out of 494985
+ 29684 string characters out of 6180356
+ 97742 words of memory out of 5000000
+ 5293 multiletter control sequences out of 15000+600000
  6149 words of font info for 22 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 37i,9n,23p,1266b,237s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,9n,23p,2052b,237s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
@@ -550,10 +567,10 @@ m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on btp_thesis.pdf (22 pages, 733158 bytes).
+Output written on btp_thesis.pdf (23 pages, 734616 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+ 148 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
