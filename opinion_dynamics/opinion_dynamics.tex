@@ -61,6 +61,22 @@ Here we will show that our problem is concave maximization problem. Basically $L
 clearly $\nabla f (i) = \frac{a_i}{M}$
 Also it is easy to show that $\nabla^2 f (i,j) = -\frac{a_ia_j}{M^2}$. Now if we define $D = [a_1,a_2,...,a_n]^T$. Then We can write $\nabla^2 f = \frac{1}{M^2} DD^T$. So for $Z \in \Re^n$ we have $Z^{T}\nabla^{2}fZ = -\frac{1}{M^2} (Z^TA)(Z^TA)^T \leq 0$. Hence the given optimization problem is a concave maximization and it can be easily solved numerically.
 \section*{Implementation}
+Now our optimization problem can be solved with gradient ascent, there are better methods. So this algorithm is implemented in mosek toolbox. For some experiments we used the given dataset, but we also developed modules to gather tweet stream from Twitter and extract friend follower information from Twitter. We also generated modules to generate synthetic data. We had to do many experiments by varying the time window that separates the train and test set and we also automated that. Now using the apis provided by the mosek api we developed modules to solve the maximum likelihood problems. For testing part, after learning the influence values we ran stochastic simulation on the test data and computed average output. We define accuracy as the overall fraction of opinion matches accross all the nodes in a particular simulation and we report the average one for several simulation with a particular time window.
+\section*{Experimental Results}
+In Figure~\ref{fig:Reddit_plot} we show how the accuracy varies accoring to the movement of the time window. In Figure~\ref{fig:Twitter_plot} we show it for the same. It seems that if we incrase the training data then the accuracy of our model increases in case of Reddit. But we don't find any recognizable trend in the Twitter Dataset. Which implies our model is not working on the Twitter dataset. This requires further examination.
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{opinion_dynamics/images/Twitter_plot.png}
+\caption{Effect of time window variation on Twitter}
+\label{fig:Twitter_plot}
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{opinion_dynamics/images/Reddit_plot.png}
+\caption{Effect of time window variation on Reddit}
 
-\section*{Comparative Results}
+\label{fig:Reddit_plot}
+\end{figure}
 \section*{Drawbacks of the model}
+Now there may be various drawbacks in the model. One thing we observed that though we get good accuracy in Reddit dataset, the model that we generate is too much sparse unlike a real network. Also as we showed that the optimization problem is a concave maximization, but its not strictly concave one. So there may be various solutions given a test data and we might not get always lucky to pick the model that gives the best test accuracy.
+\section*{Towards a better model}
