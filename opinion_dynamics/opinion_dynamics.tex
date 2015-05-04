@@ -161,8 +161,8 @@ Lets define $D = [a_im_ie^{m_ix_i}]_{n \times 1}$. Now we can write
 \end{eqnarray*}
 Now to show the convexivity,
 \begin{eqnarray*}
-Z^T \nabla^2 Z &=& \frac{1}{z^2}[z(\displaystyle\sum_{i=1}^{n} 																		Z_i^2a_im_i^2e^{m_ix_i})-(\displaystyle\sum_{i=1}^{n}z_ia_im_ie^{m_ix_i})] \\
-			   &=& \frac{1}{z^2}[(\displaystyle\sum_{i=1}^{n}a_ie^{m_ix_i})(\displaystyle\sum_{i=1}^{n} 							Z_i^2a_im_i^2e^{m_ix_i}) - (\displaystyle\sum_{i=1}^{n}z _ia_im_ie^{m_ix_i})] \\
+Z^T \nabla^2 Z &=& \frac{1}{z^2}[z(\displaystyle\sum_{i=1}^{n} 																		Z_i^2a_im_i^2e^{m_ix_i})-(\displaystyle\sum_{i=1}^{n}Z_ia_im_ie^{m_ix_i})] \\
+			   &=& \frac{1}{z^2}[(\displaystyle\sum_{i=1}^{n}a_ie^{m_ix_i})(\displaystyle\sum_{i=1}^{n} 							Z_i^2a_im_i^2e^{m_ix_i}) - (\displaystyle\sum_{i=1}^{n}Z_ia_im_ie^{m_ix_i})] \\
 			    &\geq& 0 \mbox{ (using Cauchy–Schwarz Inequality)}
 \end{eqnarray*}
 Hence $f = log(\displaystyle\sum_{i=1}^{n}a_ie^{m_ix_i})$ is convex for all $a_i \geq 0,m_i \in \Re$. Now Lets define $M = -L$. Hence 
@@ -182,5 +182,5 @@ Now clearly both $f_1$ and $f_2$ are convex and the constraints are convex. So t
 \\
 \\ Now to take care of our semidefinite problem, we need to add a regularizer.But if we add the entropy regularizer defined as $\lambda \displaystyle\sum_x \displaystyle\sum_y a_{xy}log(a_{xy})$ will not be a good idea because it does not try to make the model heterogenious nor sparse.A very common approach to learn sparse graph is to add an $L_1$ regularizer.Although addition of such regularizer can preserve the convexity, the problem becomes difficult to solve. Therefore we choose the following regularizer to incorporate sparsity
 \begin{eqnarray*}
-L &=& \displaystyle\sum_{i \in V}[\displaystyle\sum_{k \in F_i}log[\displaystyle\sum_{j \neq i} a_{ij}\xi (i,j,t_k)]+\displaystyle\sum_{k \in \widetilde{F_{i}}}log\lambda_{i}^{k}] - \lambda \displaystyle\sum_{i \neq j} \frac{1}{1 - a_ij}
+L &=& \displaystyle\sum_{i \in V}[\displaystyle\sum_{k \in F_i}log[\displaystyle\sum_{j \neq i} a_{ij}\xi (i,j,t_k)]+\displaystyle\sum_{k \in \widetilde{F_{i}}}log\lambda_{i}^{k}] - \lambda \displaystyle\sum_{i \neq j} \frac{1}{1 - a_{ij}}
 \end{eqnarray*}
