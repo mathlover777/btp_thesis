@@ -1,0 +1,39 @@
+\section*{Introduction}
+In today’s world, online social networks (OSN) are very important media for sharing, organizing
+and finding contents and contacts. Analysis of such networks not only helps to reveal many
+interesting properties of these networks, but also it helps to improve the present systems and to
+design new applications of social networks. The structure of these networks changes from time
+to time. Moreover a lot of processes goes on over these networks. To analyze various properties
+of such networks, it is important to understand the underlying dynamics and various factors
+that drive this dynamics.
+
+Influence between two nodes is an important factor that drive all dynamics in a social net-
+work. Therefore in order to understand the dynamics in OSNs, the influence between two nodes
+needs to be modeled. However, the influence that a person has on another person significantly
+depends on their relationship and the context in which they are. A professor at an university
+may not have much influence on who her student connects to, on Facebook. But, the student
+may be highly influenced by her professor when it comes to which piece of literature to read
+next. Today’s vast proliferation of online social networks (OSN) allows us to study such inter-
+actions. Here we present two learning models to address the problems of link prediction and
+understanding opinion propagation in OSNs.
+
+The problem of link prediction (LP) is stated as follows: given a graph, for every vertex in
+the graph, find vertices to which the given vertex is most likely to form new edges. The problem
+of link prediction is very important, in the context of social search and recommendation. Our
+method uses two novel signals to improve accuracy in link prediction. First, we use a co-
+clustering algorithm to find the underlying communities in the network. We use this information
+to qualify edges in the graph with a surprise value. This represents how unexpected the edge is in
+the graph, given the underlying community structure information. Second, we compute a node
+to node similarity measure which takes into account the local connectivity structure between
+these nodes. These signals are then used in combination of others as input to a discriminative
+predictor to estimate likelihoods for future edges. When tested across five diverse datasets,
+common in link prediction literature, we find our method performs significantly better than
+standard link prediction methods.
+
+Today, online social networks constantly bombard users with information. In presence of
+such a heavy information overload, it becomes critical to understand which pieces of information
+are getting through and which are ignored. A standard approach, is to model OSN users as
+actors holding opinions on different topics, which is influenced by their network neighbors.
+Here we present a novel linear influence model, which unlike existing approaches, makes no
+assumptions about system stability. At a high level, our method tries to predict the opinion of
+a user in a social network using a simple model called Voter Model. We have done our experiment on a Twitter and a Reddit dataset. And found that our model works well on the Reddit Dataset. Also we have worked on the voter model and introduced a Kernel function which might give better result in future.
